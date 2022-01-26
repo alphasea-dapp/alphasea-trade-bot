@@ -43,7 +43,7 @@ ALPHASEA_AGENT_BASE_URLにはalphasea-agentのURLを指定します。
 
 CCXT_EXCHANGEにはccxtの取引所ID(ftx, binanceなど)を指定します。
 CCXT_API_KEYとCCXT_API_SECRETには取引所のAPIキーとシークレットを指定します。
-FTXの場合、CCXT_API_SUBACCOUNTでサブアカウントを指定できます。
+FTXの場合、CCXT_SUBACCOUNTでサブアカウントを指定できます。
 
 ### 起動
 
@@ -70,7 +70,7 @@ docker-compose logs -f
 |CCXT_EXCHANGE|ccxtの取引所ID(ftx, binanceなど)を指定|
 |CCXT_API_KEY|取引所APIキー|
 |CCXT_API_SECRET|取引所APIシークレット|
-|CCXT_API_SUBACCOUNT|サブアカウント名(optional)|
+|CCXT_SUBACCOUNT|サブアカウント名(optional)|
 
 ## 対応取引所の増やし方
 
